@@ -1,0 +1,10 @@
+*.log
+*.tmp
+__pycache__/
+server.py
+.env
+Thumbs.db
+.DS_Store
+.vscode/
+.idea/
+node_modules/

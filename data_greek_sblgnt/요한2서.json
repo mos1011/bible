@@ -1,0 +1,64 @@
+{
+  "book": "요한2서",
+  "book_en": "2 John",
+  "version": "SBLGNT",
+  "chapters": [
+    {
+      "chapter": 1,
+      "verses": [
+        {
+          "verse": 1,
+          "text": "Ὁ<S>3588</S><m>T-NSM</m> πρεσβύτερος<S>4245</S><m>A-NSM-C</m> ἐκλεκτῇ<S>1588</S><m>A-DSF</m> κυρίᾳ<S>2959</S><m>N-DSF</m> καὶ<S>2532</S><m>CONJ</m> τοῖς<S>3588</S><m>T-DPN</m> τέκνοις<S>5043</S><m>N-DPN</m> αὐτῆς,<S>846</S><m>P-GSF</m> οὓς<S>3739</S><m>R-APM</m> ἐγὼ<S>1473</S><m>P-1NS</m> ἀγαπῶ<S>25</S><m>V-PAI-1S</m> ἐν<S>1722</S><m>PREP</m> ἀληθείᾳ,<S>225</S><m>N-DSF</m> καὶ<S>2532</S><m>CONJ</m> οὐκ<S>3756</S><m>PRT-N</m> ἐγὼ<S>1473</S><m>P-1NS</m> μόνος<S>3441</S><m>A-NSM</m> ἀλλὰ<S>235</S><m>CONJ</m> καὶ<S>2532</S><m>CONJ</m> πάντες<S>3956</S><m>A-NPM</m> οἱ<S>3588</S><m>T-NPM</m> ἐγνωκότες<S>1097</S><m>V-RAP-NPM</m> τὴν<S>3588</S><m>T-ASF</m> ἀλήθειαν,<S>225</S><m>N-ASF</m>"
+        },
+        {
+          "verse": 2,
+          "text": "διὰ<S>1223</S><m>PREP</m> τὴν<S>3588</S><m>T-ASF</m> ἀλήθειαν<S>225</S><m>N-ASF</m> τὴν<S>3588</S><m>T-ASF</m> μένουσαν<S>3306</S><m>V-PAP-ASF</m> ἐν<S>1722</S><m>PREP</m> ἡμῖν,<S>1473</S><m>P-1DP</m> καὶ<S>2532</S><m>CONJ</m> μεθ’<S>3326</S><m>PREP</m> ἡμῶν<S>1473</S><m>P-1GP</m> ἔσται<S>1510</S><m>V-FDI-3S</m> εἰς<S>1519</S><m>PREP</m> τὸν<S>3588</S><m>T-ASM</m> αἰῶνα·<S>165</S><m>N-ASM</m>"
+        },
+        {
+          "verse": 3,
+          "text": "ἔσται<S>1510</S><m>V-FDI-3S</m> μεθ’<S>3326</S><m>PREP</m> ἡμῶν<S>1473</S><m>P-1GP</m> χάρις<S>5485</S><m>N-NSF</m> ἔλεος<S>1656</S><m>N-NSN</m> εἰρήνη<S>1515</S><m>N-NSF</m> παρὰ<S>3844</S><m>PREP</m> θεοῦ<S>2316</S><m>N-GSM</m> πατρός,<S>3962</S><m>N-GSM</m> καὶ<S>2532</S><m>CONJ</m> ⸀παρὰ<S>3844</S><m>PREP</m> <sup>[*]</sup> Ἰησοῦ<S>2424</S><m>N-GSM</m> Χριστοῦ<S>5547</S><m>N-GSM</m> τοῦ<S>3588</S><m>T-GSM</m> υἱοῦ<S>5207</S><m>N-GSM</m> τοῦ<S>3588</S><m>T-GSM</m> πατρός,<S>3962</S><m>N-GSM</m> ἐν<S>1722</S><m>PREP</m> ἀληθείᾳ<S>225</S><m>N-DSF</m> καὶ<S>2532</S><m>CONJ</m> ἀγάπῃ.<S>26</S><m>N-DSF</m>"
+        },
+        {
+          "verse": 4,
+          "text": "Ἐχάρην<S>5463</S><m>V-2AOI-1S</m> λίαν<S>3029</S><m>ADV</m> ὅτι<S>3754</S><m>CONJ</m> εὕρηκα<S>2147</S><m>V-RAI-1S</m> ἐκ<S>1537</S><m>PREP</m> τῶν<S>3588</S><m>T-GPN</m> τέκνων<S>5043</S><m>N-GPN</m> σου<S>4771</S><m>P-2GS</m> περιπατοῦντας<S>4043</S><m>V-PAP-APM</m> ἐν<S>1722</S><m>PREP</m> ἀληθείᾳ,<S>225</S><m>N-DSF</m> καθὼς<S>2531</S><m>ADV</m> ἐντολὴν<S>1785</S><m>N-ASF</m> ἐλάβομεν<S>2983</S><m>V-2AAI-1P</m> παρὰ<S>3844</S><m>PREP</m> τοῦ<S>3588</S><m>T-GSM</m> πατρός.<S>3962</S><m>N-GSM</m>"
+        },
+        {
+          "verse": 5,
+          "text": "καὶ<S>2532</S><m>CONJ</m> νῦν<S>3568</S><m>ADV</m> ἐρωτῶ<S>2065</S><m>V-PAI-1S</m> σε,<S>4771</S><m>P-2AS</m> κυρία,<S>2959</S><m>N-VSF</m> οὐχ<S>3756</S><m>PRT-N</m> ὡς<S>5613</S><m>ADV</m> ἐντολὴν<S>1785</S><m>N-ASF</m> ⸂καινὴν<S>2537</S><m>A-ASF</m> γράφων<S>1125</S><m>V-PAP-NSM</m> σοι⸃<S>4771</S><m>P-2DS</m> <sup>[*]</sup> ἀλλὰ<S>235</S><m>CONJ</m> ἣν<S>3739</S><m>R-ASF</m> εἴχομεν<S>2192</S><m>V-IAI-1P</m> ἀπ’<S>575</S><m>PREP</m> ἀρχῆς,<S>746</S><m>N-GSF</m> ἵνα<S>2443</S><m>CONJ</m> ἀγαπῶμεν<S>25</S><m>V-PAS-1P</m> ἀλλήλους.<S>240</S><m>C-APM</m>"
+        },
+        {
+          "verse": 6,
+          "text": "καὶ<S>2532</S><m>CONJ</m> αὕτη<S>3778</S><m>D-NSF</m> ἐστὶν<S>1510</S><m>V-PAI-3S</m> ἡ<S>3588</S><m>T-NSF</m> ἀγάπη,<S>26</S><m>N-NSF</m> ἵνα<S>2443</S><m>CONJ</m> περιπατῶμεν<S>4043</S><m>V-PAS-1P</m> κατὰ<S>2596</S><m>PREP</m> τὰς<S>3588</S><m>T-APF</m> ἐντολὰς<S>1785</S><m>N-APF</m> αὐτοῦ·<S>846</S><m>P-GSM</m> αὕτη<S>3778</S><m>D-NSF</m> ⸂ἡ<S>3588</S><m>T-NSF</m> ἐντολή<S>1785</S><m>N-NSF</m> ἐστιν⸃,<S>1510</S><m>V-PAI-3S</m> <sup>[*]</sup> καθὼς<S>2531</S><m>ADV</m> ἠκούσατε<S>191</S><m>V-AAI-2P</m> ἀπ’<S>575</S><m>PREP</m> ἀρχῆς,<S>746</S><m>N-GSF</m> ἵνα<S>2443</S><m>CONJ</m> ἐν<S>1722</S><m>PREP</m> αὐτῇ<S>846</S><m>P-DSF</m> περιπατῆτε.<S>4043</S><m>V-PAS-2P</m>"
+        },
+        {
+          "verse": 7,
+          "text": "ὅτι<S>3754</S><m>CONJ</m> πολλοὶ<S>4183</S><m>A-NPM</m> πλάνοι<S>4108</S><m>A-NPM</m> ⸀ἐξῆλθον<S>1831</S><m>V-2AAI-3P</m> <sup>[*]</sup> εἰς<S>1519</S><m>PREP</m> τὸν<S>3588</S><m>T-ASM</m> κόσμον,<S>2889</S><m>N-ASM</m> οἱ<S>3588</S><m>T-NPM</m> μὴ<S>3361</S><m>PRT-N</m> ὁμολογοῦντες<S>3670</S><m>V-PAP-NPM</m> Ἰησοῦν<S>2424</S><m>N-ASM</m> Χριστὸν<S>5547</S><m>N-ASM</m> ἐρχόμενον<S>2064</S><m>V-PNP-ASM</m> ἐν<S>1722</S><m>PREP</m> σαρκί·<S>4561</S><m>N-DSF</m> οὗτός<S>3778</S><m>D-NSM</m> ἐστιν<S>1510</S><m>V-PAI-3S</m> ὁ<S>3588</S><m>T-NSM</m> πλάνος<S>4108</S><m>A-NSM</m> καὶ<S>2532</S><m>CONJ</m> ὁ<S>3588</S><m>T-NSM</m> ἀντίχριστος.<S>500</S><m>N-NSM</m>"
+        },
+        {
+          "verse": 8,
+          "text": "βλέπετε<S>991</S><m>V-PAM-2P</m> ἑαυτούς,<S>1438</S><m>F-2APM</m> ἵνα<S>2443</S><m>CONJ</m> μὴ<S>3361</S><m>PRT-N</m> ⸀ἀπολέσητε<S>622</S><m>V-AAS-2P</m> <sup>[*]</sup> ἃ<S>3739</S><m>R-APN</m> ⸀εἰργασάμεθα,<S>2038</S><m>V-ADI-1P</m> <sup>[*]</sup> ἀλλὰ<S>235</S><m>CONJ</m> μισθὸν<S>3408</S><m>N-ASM</m> πλήρη<S>4134</S><m>A-ASM</m> ⸀ἀπολάβητε.<S>618</S><m>V-2AAS-2P</m> <sup>[*]</sup>"
+        },
+        {
+          "verse": 9,
+          "text": "πᾶς<S>3956</S><m>A-NSM</m> ὁ<S>3588</S><m>T-NSM</m> ⸀προάγων<S>4254</S><m>V-PAP-NSM</m> <sup>[*]</sup> καὶ<S>2532</S><m>CONJ</m> μὴ<S>3361</S><m>PRT-N</m> μένων<S>3306</S><m>V-PAP-NSM</m> ἐν<S>1722</S><m>PREP</m> τῇ<S>3588</S><m>T-DSF</m> διδαχῇ<S>1322</S><m>N-DSF</m> τοῦ<S>3588</S><m>T-GSM</m> Χριστοῦ<S>5547</S><m>N-GSM</m> θεὸν<S>2316</S><m>N-ASM</m> οὐκ<S>3756</S><m>PRT-N</m> ἔχει·<S>2192</S><m>V-PAI-3S</m> ὁ<S>3588</S><m>T-NSM</m> μένων<S>3306</S><m>V-PAP-NSM</m> ἐν<S>1722</S><m>PREP</m> τῇ<S>3588</S><m>T-DSF</m> ⸀διδαχῇ,<S>1322</S><m>N-DSF</m> <sup>[*]</sup> οὗτος<S>3778</S><m>D-NSM</m> καὶ<S>2532</S><m>CONJ</m> τὸν<S>3588</S><m>T-ASM</m> πατέρα<S>3962</S><m>N-ASM</m> καὶ<S>2532</S><m>CONJ</m> τὸν<S>3588</S><m>T-ASM</m> υἱὸν<S>5207</S><m>N-ASM</m> ἔχει.<S>2192</S><m>V-PAI-3S</m>"
+        },
+        {
+          "verse": 10,
+          "text": "εἴ<S>1487</S><m>COND</m> τις<S>5100</S><m>X-NSM</m> ἔρχεται<S>2064</S><m>V-PNI-3S</m> πρὸς<S>4314</S><m>PREP</m> ὑμᾶς<S>4771</S><m>P-2AP</m> καὶ<S>2532</S><m>CONJ</m> ταύτην<S>3778</S><m>D-ASF</m> τὴν<S>3588</S><m>T-ASF</m> διδαχὴν<S>1322</S><m>N-ASF</m> οὐ<S>3756</S><m>PRT-N</m> φέρει,<S>5342</S><m>V-PAI-3S</m> μὴ<S>3361</S><m>PRT-N</m> λαμβάνετε<S>2983</S><m>V-PAM-2P</m> αὐτὸν<S>846</S><m>P-ASM</m> εἰς<S>1519</S><m>PREP</m> οἰκίαν<S>3614</S><m>N-ASF</m> καὶ<S>2532</S><m>CONJ</m> χαίρειν<S>5463</S><m>V-PAN</m> αὐτῷ<S>846</S><m>P-DSM</m> μὴ<S>3361</S><m>PRT-N</m> λέγετε·<S>3004</S><m>V-PAM-2P</m>"
+        },
+        {
+          "verse": 11,
+          "text": "ὁ<S>3588</S><m>T-NSM</m> ⸂λέγων<S>3004</S><m>V-PAP-NSM</m> γὰρ⸃<S>1063</S><m>CONJ</m> <sup>[*]</sup> αὐτῷ<S>846</S><m>P-DSM</m> χαίρειν<S>5463</S><m>V-PAN</m> κοινωνεῖ<S>2841</S><m>V-PAI-3S</m> τοῖς<S>3588</S><m>T-DPN</m> ἔργοις<S>2041</S><m>N-DPN</m> αὐτοῦ<S>846</S><m>P-GSM</m> τοῖς<S>3588</S><m>T-DPN</m> πονηροῖς.<S>4190</S><m>A-DPN</m> "
+        },
+        {
+          "verse": 12,
+          "text": "Πολλὰ<S>4183</S><m>A-APN</m> ἔχων<S>2192</S><m>V-PAP-NSM</m> ὑμῖν<S>4771</S><m>P-2DP</m> γράφειν<S>1125</S><m>V-PAN</m> οὐκ<S>3756</S><m>PRT-N</m> ἐβουλήθην<S>1014</S><m>V-AOI-1S</m> διὰ<S>1223</S><m>PREP</m> χάρτου<S>5489</S><m>N-GSM</m> καὶ<S>2532</S><m>CONJ</m> μέλανος,<S>3188</S><m>A-GSN</m> ἀλλὰ<S>235</S><m>CONJ</m> ἐλπίζω<S>1679</S><m>V-PAI-1S</m> ⸀γενέσθαι<S>1096</S><m>V-2ADN</m> <sup>[*]</sup> πρὸς<S>4314</S><m>PREP</m> ὑμᾶς<S>4771</S><m>P-2AP</m> καὶ<S>2532</S><m>CONJ</m> στόμα<S>4750</S><m>N-ASN</m> πρὸς<S>4314</S><m>PREP</m> στόμα<S>4750</S><m>N-ASN</m> λαλῆσαι,<S>2980</S><m>V-AAN</m> ἵνα<S>2443</S><m>CONJ</m> ἡ<S>3588</S><m>T-NSF</m> χαρὰ<S>5479</S><m>N-NSF</m> ⸀ὑμῶν<S>4771</S><m>P-2GP</m> <sup>[*]</sup> ⸂πεπληρωμένη<S>4137</S><m>V-RPP-NSF</m> ᾖ⸃.<S>1510</S><m>V-PAS-3S</m> <sup>[*]</sup>"
+        },
+        {
+          "verse": 13,
+          "text": "Ἀσπάζεταί<S>782</S><m>V-PNI-3S</m> σε<S>4771</S><m>P-2AS</m> τὰ<S>3588</S><m>T-NPN</m> τέκνα<S>5043</S><m>N-NPN</m> τῆς<S>3588</S><m>T-GSF</m> ἀδελφῆς<S>79</S><m>N-GSF</m> σου<S>4771</S><m>P-2GS</m> τῆς<S>3588</S><m>T-GSF</m> ⸀ἐκλεκτῆς.<S>1588</S><m>A-GSF</m> <sup>[*]</sup> "
+        }
+      ]
+    }
+  ]
+}

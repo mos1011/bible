@@ -1,0 +1,164 @@
+[
+  {
+    "id": 40,
+    "name": "마태복음",
+    "name_en": "Matthew",
+    "chapters": 28
+  },
+  {
+    "id": 41,
+    "name": "마가복음",
+    "name_en": "Mark",
+    "chapters": 16
+  },
+  {
+    "id": 42,
+    "name": "누가복음",
+    "name_en": "Luke",
+    "chapters": 24
+  },
+  {
+    "id": 43,
+    "name": "요한복음",
+    "name_en": "John",
+    "chapters": 21
+  },
+  {
+    "id": 44,
+    "name": "사도행전",
+    "name_en": "Acts",
+    "chapters": 28
+  },
+  {
+    "id": 45,
+    "name": "로마서",
+    "name_en": "Romans",
+    "chapters": 16
+  },
+  {
+    "id": 46,
+    "name": "고린도전서",
+    "name_en": "1 Corinthians",
+    "chapters": 16
+  },
+  {
+    "id": 47,
+    "name": "고린도후서",
+    "name_en": "2 Corinthians",
+    "chapters": 13
+  },
+  {
+    "id": 48,
+    "name": "갈라디아서",
+    "name_en": "Galatians",
+    "chapters": 6
+  },
+  {
+    "id": 49,
+    "name": "에베소서",
+    "name_en": "Ephesians",
+    "chapters": 6
+  },
+  {
+    "id": 50,
+    "name": "빌립보서",
+    "name_en": "Philippians",
+    "chapters": 4
+  },
+  {
+    "id": 51,
+    "name": "골로새서",
+    "name_en": "Colossians",
+    "chapters": 4
+  },
+  {
+    "id": 52,
+    "name": "데살로니가전서",
+    "name_en": "1 Thessalonians",
+    "chapters": 5
+  },
+  {
+    "id": 53,
+    "name": "데살로니가후서",
+    "name_en": "2 Thessalonians",
+    "chapters": 3
+  },
+  {
+    "id": 54,
+    "name": "디모데전서",
+    "name_en": "1 Timothy",
+    "chapters": 6
+  },
+  {
+    "id": 55,
+    "name": "디모데후서",
+    "name_en": "2 Timothy",
+    "chapters": 4
+  },
+  {
+    "id": 56,
+    "name": "디도서",
+    "name_en": "Titus",
+    "chapters": 3
+  },
+  {
+    "id": 57,
+    "name": "빌레몬서",
+    "name_en": "Philemon",
+    "chapters": 1
+  },
+  {
+    "id": 58,
+    "name": "히브리서",
+    "name_en": "Hebrews",
+    "chapters": 13
+  },
+  {
+    "id": 59,
+    "name": "야고보서",
+    "name_en": "James",
+    "chapters": 5
+  },
+  {
+    "id": 60,
+    "name": "베드로전서",
+    "name_en": "1 Peter",
+    "chapters": 5
+  },
+  {
+    "id": 61,
+    "name": "베드로후서",
+    "name_en": "2 Peter",
+    "chapters": 3
+  },
+  {
+    "id": 62,
+    "name": "요한1서",
+    "name_en": "1 John",
+    "chapters": 5
+  },
+  {
+    "id": 63,
+    "name": "요한2서",
+    "name_en": "2 John",
+    "chapters": 1
+  },
+  {
+    "id": 64,
+    "name": "요한3서",
+    "name_en": "3 John",
+    "chapters": 1
+  },
+  {
+    "id": 65,
+    "name": "유다서",
+    "name_en": "Jude",
+    "chapters": 1
+  },
+  {
+    "id": 66,
+    "name": "요한계시록",
+    "name_en": "Revelation",
+    "chapters": 22
+  }
+]

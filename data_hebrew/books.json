@@ -1,0 +1,236 @@
+[
+  {
+    "id": 1,
+    "name": "창세기",
+    "name_en": "Genesis",
+    "chapters": 50
+  },
+  {
+    "id": 2,
+    "name": "출애굽기",
+    "name_en": "Exodus",
+    "chapters": 40
+  },
+  {
+    "id": 3,
+    "name": "레위기",
+    "name_en": "Leviticus",
+    "chapters": 27
+  },
+  {
+    "id": 4,
+    "name": "민수기",
+    "name_en": "Numbers",
+    "chapters": 36
+  },
+  {
+    "id": 5,
+    "name": "신명기",
+    "name_en": "Deuteronomy",
+    "chapters": 34
+  },
+  {
+    "id": 6,
+    "name": "여호수아",
+    "name_en": "Joshua",
+    "chapters": 24
+  },
+  {
+    "id": 7,
+    "name": "사사기",
+    "name_en": "Judges",
+    "chapters": 21
+  },
+  {
+    "id": 8,
+    "name": "룻기",
+    "name_en": "Ruth",
+    "chapters": 4
+  },
+  {
+    "id": 9,
+    "name": "사무엘상",
+    "name_en": "1 Samuel",
+    "chapters": 31
+  },
+  {
+    "id": 10,
+    "name": "사무엘하",
+    "name_en": "2 Samuel",
+    "chapters": 24
+  },
+  {
+    "id": 11,
+    "name": "열왕기상",
+    "name_en": "1 Kings",
+    "chapters": 22
+  },
+  {
+    "id": 12,
+    "name": "열왕기하",
+    "name_en": "2 Kings",
+    "chapters": 25
+  },
+  {
+    "id": 13,
+    "name": "역대상",
+    "name_en": "1 Chronicles",
+    "chapters": 29
+  },
+  {
+    "id": 14,
+    "name": "역대하",
+    "name_en": "2 Chronicles",
+    "chapters": 36
+  },
+  {
+    "id": 15,
+    "name": "에스라",
+    "name_en": "Ezra",
+    "chapters": 10
+  },
+  {
+    "id": 16,
+    "name": "느헤미야",
+    "name_en": "Nehemiah",
+    "chapters": 13
+  },
+  {
+    "id": 17,
+    "name": "에스더",
+    "name_en": "Esther",
+    "chapters": 10
+  },
+  {
+    "id": 18,
+    "name": "욥기",
+    "name_en": "Job",
+    "chapters": 42
+  },
+  {
+    "id": 19,
+    "name": "시편",
+    "name_en": "Psalms",
+    "chapters": 150
+  },
+  {
+    "id": 20,
+    "name": "잠언",
+    "name_en": "Proverbs",
+    "chapters": 31
+  },
+  {
+    "id": 21,
+    "name": "전도서",
+    "name_en": "Ecclesiastes",
+    "chapters": 12
+  },
+  {
+    "id": 22,
+    "name": "아가",
+    "name_en": "Song of Solomon",
+    "chapters": 8
+  },
+  {
+    "id": 23,
+    "name": "이사야",
+    "name_en": "Isaiah",
+    "chapters": 66
+  },
+  {
+    "id": 24,
+    "name": "예레미야",
+    "name_en": "Jeremiah",
+    "chapters": 52
+  },
+  {
+    "id": 25,
+    "name": "예레미야애가",
+    "name_en": "Lamentations",
+    "chapters": 5
+  },
+  {
+    "id": 26,
+    "name": "에스겔",
+    "name_en": "Ezekiel",
+    "chapters": 48
+  },
+  {
+    "id": 27,
+    "name": "다니엘",
+    "name_en": "Daniel",
+    "chapters": 12
+  },
+  {
+    "id": 28,
+    "name": "호세아",
+    "name_en": "Hosea",
+    "chapters": 14
+  },
+  {
+    "id": 29,
+    "name": "요엘",
+    "name_en": "Joel",
+    "chapters": 4
+  },
+  {
+    "id": 30,
+    "name": "아모스",
+    "name_en": "Amos",
+    "chapters": 9
+  },
+  {
+    "id": 31,
+    "name": "오바댜",
+    "name_en": "Obadiah",
+    "chapters": 1
+  },
+  {
+    "id": 32,
+    "name": "요나",
+    "name_en": "Jonah",
+    "chapters": 4
+  },
+  {
+    "id": 33,
+    "name": "미가",
+    "name_en": "Micah",
+    "chapters": 7
+  },
+  {
+    "id": 34,
+    "name": "나훔",
+    "name_en": "Nahum",
+    "chapters": 3
+  },
+  {
+    "id": 35,
+    "name": "하박국",
+    "name_en": "Habakkuk",
+    "chapters": 3
+  },
+  {
+    "id": 36,
+    "name": "스바냐",
+    "name_en": "Zephaniah",
+    "chapters": 3
+  },
+  {
+    "id": 37,
+    "name": "학개",
+    "name_en": "Haggai",
+    "chapters": 2
+  },
+  {
+    "id": 38,
+    "name": "스가랴",
+    "name_en": "Zechariah",
+    "chapters": 14
+  },
+  {
+    "id": 39,
+    "name": "말라기",
+    "name_en": "Malachi",
+    "chapters": 3
+  }
+]
