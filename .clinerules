@@ -1,0 +1,4 @@
+[RULE]
+Do not explain code changes in conversational text. 
+Always use the strict XML tool-use format (e.g., <write_to_file>, <replace_in_file>) to directly apply modifications to the workspace files.
+

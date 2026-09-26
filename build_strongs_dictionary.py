@@ -1,10 +1,4 @@
-import urllib.request
-import json
-import re
-import os
-import sys
-
-sys.stdout.reconfigure(encoding='utf-8')
+import urllib.request, json, re, os, sys, collections, bisect
 
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 INDEX_FILE = os.path.join(BASE_DIR, 'strongs_index.json')
