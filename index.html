@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <meta name="theme-color" content="#1a1e2b">
+  <meta name="description" content="개역한글, 히브리어, 헬라어, NIV 성경 대조 및 원어 키워드/스트롱코드 탐색 PWA 앱">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <title>📖 통합 성경 & 원어 대조 뷰어</title>
+  
+  <link rel="manifest" href="./manifest.json?v=1.0.2">
+  <link rel="icon" type="image/png" sizes="192x192" href="./icon-192.png?v=1.0.2">
+  <link rel="apple-touch-icon" href="./icon-192.png?v=1.0.2">
+  <link rel="stylesheet" href="styles.css?v=1.0.2">
+</head>
+<body>
+
+  <!-- Top App Navigation Header -->
+  <header class="app-header">
+    <div class="header-left">
+      <button class="chapter-nav-btn" id="prevChapBtn" title="이전 장">◀</button>
+      <button class="book-title-btn" id="bookTitleBtn">창세기 1장 ▾</button>
+      <button class="chapter-nav-btn" id="nextChapBtn" title="다음 장">▶</button>
+    </div>
+
+    <div class="header-right">
+      <!-- Usage Mode Toggle Switch: Reading (통독) vs Worship (예배) -->
+      <button class="toggle-mode-btn usage-toggle-btn active" id="usageToggleBtn" title="통독 / 예배 모드 전환">📖 통독</button>
+
+      <!-- View Mode Toggle Switch: Dual Comparison ON/OFF -->
+      <button class="toggle-mode-btn dual-toggle-btn" id="modeDualToggleBtn" title="역본 대조 모드 켜기/끄기">⇄ 대조 OFF</button>
+
+      <!-- Search Icon Button -->
+      <button class="icon-only-btn" id="searchTriggerBtn" title="성경 / 스트롱코드 검색">🔍</button>
+
+      <!-- Settings Gear Button -->
+      <button class="icon-only-btn" id="settingsTriggerBtn" title="글자 크기 및 화면 설정">⚙️</button>
+    </div>
+  </header>
+
+  <!-- Version Selection Sub-Toolbar & Reading Saved Location Status -->
+  <div class="version-bar">
+    <div class="version-picker-group">
+      <select class="version-select" id="leftVersionSelect">
+        <option value="data" selected>🇰🇷 개역한글 (KRV)</option>
+        <option value="data_niv">🇺🇸 영어 (NIV)</option>
+        <option value="data_hebrew">📜 히브리어 (WLC - 구약)</option>
+        <option value="data_greek">📜 헬라어 (TR - 신약)</option>
+        <option value="data_greek_sblgnt">📜 헬라어 (SBLGNT - 신약)</option>
+      </select>
+    </div>
+
+    <div class="version-picker-group" id="rightVersionGroup" style="display: none;">
+      <select class="version-select" id="rightVersionSelect">
+        <option value="data">🇰🇷 개역한글 (KRV)</option>
+        <option value="data_niv">🇺🇸 영어 (NIV)</option>
+        <option value="data_hebrew" selected>📜 히브리어 (WLC - 구약)</option>
+        <option value="data_greek">📜 헬라어 (TR - 신약)</option>
+        <option value="data_greek_sblgnt">📜 헬라어 (SBLGNT - 신약)</option>
+      </select>
+    </div>
+
+    <span class="saved-pos-badge" id="savedPosBadge">📌 통독 모드: 위치 자동 저장</span>
+  </div>
+
+  <!-- Word Hover Tooltip Card -->
+  <div class="word-tooltip" id="wordHoverTooltip" style="display: none;">
+    <div class="tooltip-header">
+      <span class="tooltip-word" id="tooltipWord">-</span>
+      <span class="tooltip-translit" id="tooltipTranslit">(-)</span>
+      <span class="tooltip-strongs" id="tooltipStrongs">Strong's</span>
+    </div>
+    <div class="tooltip-meaning" id="tooltipMeaning">-</div>
+  </div>
+
+  <!-- Main Bible Reading Viewport with ONE Single Unified Scrollbar -->
+  <main class="main-viewport">
+    <div class="unified-scroll-area" id="unifiedScrollArea">
+      <div class="verses-container single-mode" id="versesContainer">
+        <!-- Verses dynamically rendered -->
+      </div>
+    </div>
+  </main>
+
+  <!-- Modal: Book & Chapter Selector -->
+  <div class="modal-overlay" id="modalOverlay">
+    <div class="modal-card">
+      <div class="modal-header">
+        <h3>📚 성경 권 및 장 선택</h3>
+        <button class="close-btn" id="closeModalBtn">&times;</button>
+      </div>
+      <div class="modal-body">
+        <h4 style="color: var(--text-muted); font-size: 0.85rem; margin-bottom: 0.6rem;">성경 66권 선택</h4>
+        <div class="book-grid" id="modalBookGrid">
+          <!-- Book buttons dynamically rendered -->
+        </div>
+
+        <h4 style="color: var(--text-muted); font-size: 0.85rem; margin-top: 1rem; margin-bottom: 0.6rem;">장 선택</h4>
+        <div class="chapter-grid" id="modalChapterGrid">
+          <!-- Chapter buttons dynamically rendered -->
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal: Settings (Font Size & Controls) -->
+  <div class="modal-overlay" id="settingsModalOverlay">
+    <div class="modal-card settings-modal-card">
+      <div class="modal-header">
+        <h3>⚙️ 글자 크기 및 화면 설정</h3>
+        <button class="close-btn" id="closeSettingsModalBtn">&times;</button>
+      </div>
+      <div class="modal-body settings-modal-body">
+        <div class="setting-item">
+          <div class="setting-title-row">
+            <span class="setting-label-text">본문 글자 크기</span>
+            <span class="font-size-val-display" id="fontSizeLabel">100%</span>
+          </div>
+          <div class="font-size-controls-large">
+            <button class="font-adjust-btn" id="fontDecreaseBtn">A- (축소)</button>
+            <button class="font-reset-btn" id="fontResetBtn">100% (기본)</button>
+            <button class="font-adjust-btn" id="fontIncreaseBtn">A+ (확대)</button>
+          </div>
+        </div>
+
+        <!-- PWA App Install Option (Shown on PWA supported mobile browsers) -->
+        <div class="setting-item" id="pwaInstallRow" style="display: none; margin-top: 1rem; padding-top: 1rem; border-top: 1px dashed var(--border-color);">
+          <div class="setting-title-row" style="margin-bottom: 0.5rem;">
+            <span class="setting-label-text">📲 모바일 앱 설치 (PWA)</span>
+          </div>
+          <button class="pwa-install-btn" id="pwaInstallBtn">📲 홈 화면에 성경 앱 설치하기</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Search & Strong's Drawer -->
+  <aside class="drawer-overlay" id="drawerOverlay">
+    <div class="drawer-header">
+      <h3 style="font-size: 1rem; color: var(--accent-gold-light);">🔍 통합 검색 & 원어 탐색</h3>
+      <button class="close-btn" id="closeDrawerBtn">&times;</button>
+    </div>
+    <div class="drawer-body">
+      <div class="search-input-box">
+        <input type="text" class="search-input" id="searchInput" placeholder="검색어 (예: 태초에, H1254, G746)...">
+        <button class="search-btn" id="searchBtn">🔍</button>
+      </div>
+
+      <div id="searchResults">
+        <div style="color: var(--text-muted); font-size: 0.9rem; line-height: 1.6;">
+          • 성경 단어/구절 키워드 검색<br>
+          • 스트롱코드 검색 (예: <code>H1254</code>, <code>G746</code>)<br>
+          • 본문의 원어 단어를 클릭하면 자동으로 어근 검색이 실행됩니다.
+        </div>
+      </div>
+    </div>
+  </aside>
+
+  <script src="app.js?v=1.0.2"></script>
+</body>
+</html>
